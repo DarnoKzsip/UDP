@@ -1,0 +1,10 @@
+E:\7semetr\Kubica\PolaczeniaUDP\PolaczenieUDP\Client\bin\Debug\Client.exe.config
+E:\7semetr\Kubica\PolaczeniaUDP\PolaczenieUDP\Client\bin\Debug\Client.exe
+E:\7semetr\Kubica\PolaczeniaUDP\PolaczenieUDP\Client\bin\Debug\Client.pdb
+E:\7semetr\Kubica\PolaczeniaUDP\PolaczenieUDP\Client\obj\Debug\Client.Properties.Resources.resources
+E:\7semetr\Kubica\PolaczeniaUDP\PolaczenieUDP\Client\obj\Debug\Client.csproj.GenerateResource.cache
+E:\7semetr\Kubica\PolaczeniaUDP\PolaczenieUDP\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
+E:\7semetr\Kubica\PolaczeniaUDP\PolaczenieUDP\Client\obj\Debug\Client.exe
+E:\7semetr\Kubica\PolaczeniaUDP\PolaczenieUDP\Client\obj\Debug\Client.pdb
+E:\7semetr\Kubica\PolaczeniaUDP\PolaczenieUDP\Client\obj\Debug\Client.Form1.resources
+E:\7semetr\Kubica\PolaczeniaUDP\PolaczenieUDP\Client\obj\Debug\Client.csprojAssemblyReference.cache

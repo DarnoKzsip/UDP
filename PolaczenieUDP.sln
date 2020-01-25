@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolaczenieUDP", "PolaczenieUDP\PolaczenieUDP.csproj", "{9603C98A-BC0D-4344-BD22-FA820980D4F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{BE2A6623-0066-48CE-830B-8B8BC4BA9914}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "Server\Server.csproj", "{400DDDC1-4990-4E0A-9A24-224F5CB9B103}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9603C98A-BC0D-4344-BD22-FA820980D4F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9603C98A-BC0D-4344-BD22-FA820980D4F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9603C98A-BC0D-4344-BD22-FA820980D4F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9603C98A-BC0D-4344-BD22-FA820980D4F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE2A6623-0066-48CE-830B-8B8BC4BA9914}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE2A6623-0066-48CE-830B-8B8BC4BA9914}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE2A6623-0066-48CE-830B-8B8BC4BA9914}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE2A6623-0066-48CE-830B-8B8BC4BA9914}.Release|Any CPU.Build.0 = Release|Any CPU
+		{400DDDC1-4990-4E0A-9A24-224F5CB9B103}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{400DDDC1-4990-4E0A-9A24-224F5CB9B103}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{400DDDC1-4990-4E0A-9A24-224F5CB9B103}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{400DDDC1-4990-4E0A-9A24-224F5CB9B103}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {817FD80E-25BA-43A9-B16A-E52776EE6A0C}
+	EndGlobalSection
+EndGlobal
