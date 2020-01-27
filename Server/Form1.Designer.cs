@@ -33,7 +33,6 @@
             this.LAB_OdebraneKomunikaty = new System.Windows.Forms.Label();
             this.LB_Port = new System.Windows.Forms.Label();
             this.BTN_Uruchom = new System.Windows.Forms.Button();
-            this.BTN_Close = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.NUD_Port)).BeginInit();
             this.SuspendLayout();
             // 
@@ -90,21 +89,11 @@
             this.BTN_Uruchom.UseVisualStyleBackColor = true;
             this.BTN_Uruchom.Click += new System.EventHandler(this.BTN_Uruchom_Click);
             // 
-            // BTN_Close
-            // 
-            this.BTN_Close.Location = new System.Drawing.Point(41, 167);
-            this.BTN_Close.Name = "BTN_Close";
-            this.BTN_Close.Size = new System.Drawing.Size(75, 23);
-            this.BTN_Close.TabIndex = 5;
-            this.BTN_Close.Text = "Zakoncz";
-            this.BTN_Close.UseVisualStyleBackColor = true;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(376, 215);
-            this.Controls.Add(this.BTN_Close);
             this.Controls.Add(this.BTN_Uruchom);
             this.Controls.Add(this.LB_Port);
             this.Controls.Add(this.LAB_OdebraneKomunikaty);
@@ -125,7 +114,6 @@
         private System.Windows.Forms.Label LAB_OdebraneKomunikaty;
         private System.Windows.Forms.Label LB_Port;
         private System.Windows.Forms.Button BTN_Uruchom;
-        private System.Windows.Forms.Button BTN_Close;
     }
 }
 

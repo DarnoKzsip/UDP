@@ -8,3 +8,13 @@ E:\7semetr\Kubica\PolaczeniaUDP\PolaczenieUDP\Server\obj\Debug\Server.csproj.Cor
 E:\7semetr\Kubica\PolaczeniaUDP\PolaczenieUDP\Server\obj\Debug\Server.exe
 E:\7semetr\Kubica\PolaczeniaUDP\PolaczenieUDP\Server\obj\Debug\Server.pdb
 E:\7semetr\Kubica\PolaczeniaUDP\PolaczenieUDP\Server\obj\Debug\Server.Form1.resources
+D:\ProjektUDP\UDP\Server\bin\Debug\Server.exe.config
+D:\ProjektUDP\UDP\Server\bin\Debug\Server.exe
+D:\ProjektUDP\UDP\Server\bin\Debug\Server.pdb
+D:\ProjektUDP\UDP\Server\obj\Debug\Server.csprojAssemblyReference.cache
+D:\ProjektUDP\UDP\Server\obj\Debug\Server.Form1.resources
+D:\ProjektUDP\UDP\Server\obj\Debug\Server.Properties.Resources.resources
+D:\ProjektUDP\UDP\Server\obj\Debug\Server.csproj.GenerateResource.cache
+D:\ProjektUDP\UDP\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+D:\ProjektUDP\UDP\Server\obj\Debug\Server.exe
+D:\ProjektUDP\UDP\Server\obj\Debug\Server.pdb

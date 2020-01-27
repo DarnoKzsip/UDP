@@ -36,11 +36,11 @@ namespace Client
                 
                 //if (TB_Wiadomosc.Text == "koniec")
                     klient.Close();
-                klient.Connect(host, port);
-                Byte[] odczyt = klient.Receive(ref zdalnyIP);
-                string daneOdebrane = Encoding.ASCII.GetString(odczyt);
-                LB_Odebrane.Items.Add(daneOdebrane);
-                klient.Close();
+                //klient.Connect(host, port);
+                //Byte[] odczyt = klient.Receive(ref zdalnyIP);
+                //string daneOdebrane = Encoding.ASCII.GetString(odczyt);
+                //LB_Odebrane.Items.Add(daneOdebrane);
+                //klient.Close();
 
 
             }

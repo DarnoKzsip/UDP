@@ -26,21 +26,27 @@ namespace Server
         {
            
             IPEndPoint zdalnyIP = new IPEndPoint(IPAddress.Any, 0);
+            int port = (int)NUD_Port.Value;
+            UdpClient serwer = new UdpClient(port);
+           // serwer.Client.ReceiveBufferSize = 4;
+            
+            bool info = true;
             try
             {
-                int port = (int)NUD_Port.Value;
-                UdpClient serwer = new UdpClient(port);
-                serwer.Client.ReceiveBufferSize = 4;
-                Console.WriteLine("Dostepne dane: " + serwer.Available);
-                Byte[] odczyt = serwer.Receive(ref zdalnyIP);
-                string dane = Encoding.ASCII.GetString(odczyt);
-                LB_KomunikatyOdebrane.Items.Add(dane);
-                serwer.Close();
-                serwer.Connect(zdalnyIP.Address, zdalnyIP.Port);
-                Byte[] odpowiedz = Encoding.ASCII.GetBytes("Odebrałem paczke: " + odczyt.Length);
-                serwer.Send(odpowiedz, odpowiedz.Length);
-                //if (dane == "koniec")
-                    serwer.Close();
+                while (info == true)
+                {
+
+                    Console.WriteLine("Dostepne dane: " + serwer.Client.Available);
+                    Byte[] odczyt = serwer.Receive(ref zdalnyIP);
+                    string dane = Encoding.ASCII.GetString(odczyt);
+                    LB_KomunikatyOdebrane.Items.Add(dane);
+                    if (dane == "koniec")
+                    {
+                        info = false;
+                        serwer.Close();
+                    }
+                }
+                
 
             }
             catch (Exception ex) {
